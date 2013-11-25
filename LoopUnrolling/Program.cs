@@ -1,6 +1,7 @@
 ﻿/*
  * Current implementation of unrolled loop yeilds 50% speedup
  * over standard loop (single accumulator) on 2.0 GHz i7 Quad-Core, 4GB main mem.
+ * Uses only integer pipelines.
  */
 
 using System;
